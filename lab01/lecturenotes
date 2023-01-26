@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Unit 1 Notes </title>
+    </head>
+    <body> 
+        <h1> Unit 1 New Tags</h1>
+        <p> Lorem <strong>ipsum</strong> sit amet consectetur adipisicing elit. Voluptatibus error rem vero vel ex dolores magnam expedita. Quidem ullam necessitatibus dignissimos amet corrupti architecto eos dolores, veniam voluptatibus reiciendis fugit? </p>
+        <p> This is our second paragraph </p>
+        <h2> Sub Heading</h2>
+        <p> Sub heading info. </p>
+        <h2> Second Sub heading </h2>
+    </body>
+</html>
