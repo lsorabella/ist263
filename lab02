@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html> 
+    <head>
+        <meta charset+"utf-g">
+        <title> Lauren Sorabella Biography</title>
+    </head>
+    <h1> A Little About Me </h1>
+    <h2> Personal Info </h2>
+    <body>
+        <p>
+        My name is Lauren Sorabella and I am a student at the Newhouse School of Public Communications studying Magazine and Digital Journalism 
+        and hopefully pursuing a minor in the iSchool in Information Management 
+        and Technology. My degree in magazine lets me use creative tools while my 
+        minor helps in using the technology of making a website, using different 
+        editing softwares. I also am part of the Fashion and Beauty Milestone between
+        Newhouse and VPA. Outside of school I love to read, listen to podcasts, 
+        go on walks, and play with my dog, Brody. 
+        </p>
+        <p>
+            I am from Boston, Massachusetts and it is my<strong> favorite </strong> to be.
+            Some of my favorite things to do when I'm home is attend hockey games,
+            Boston universities have very competitive hockey teams that are entertaining
+            to watch. I also love going in to eat seafood, my favorite type of food, and
+            when it's cold some New England Clam Chowder. 
+        </p>
+        <ol>
+            Some of my favorite pastimes are:  
+            <li> Traveling </li>
+            <li> Eating good food </li>
+            <li> Yoga</li>
+        <hr>
+        &trade; 2020
+    </body>
+    </html>
