@@ -1,0 +1,17 @@
+<head> 
+<title> CSS </title>
+<link rel="stylesheet" href= "lab06/contact.html">
+<link rel="stylesheet" href= "lab06/skills.html">
+</head>
+<style>
+body {font-family: Garamond, serif;
+}
+h1, h2 {color:cornflowerblue;
+}
+.evenrow {background-color: dimgrey;
+}
+h1 {font-size: 5em;
+}
+h2 {font-size: 2em;
+}
+</style> 
