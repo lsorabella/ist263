@@ -1,10 +1,11 @@
 <head> 
 <title> CSS </title>
-<link rel="stylesheet" href= "lab06/contact.html">
-<link rel="stylesheet" href= "lab06/skills.html">
+<link rel="stylesheet" href="./lab06/contact.html">
+<link rel="stylesheet" href= "./lab06/skills.html">
+<link rel="stylesheet" href= "./lab06/sorabella-bio.html">
 </head>
 <style>
-body {font-family: Garamond, serif;
+body {font-family: Times New Roman, serif;
 }
 h1, h2 {color:cornflowerblue;
 }
