@@ -1,0 +1,19 @@
+<style>
+/* below is an emelement selector */
+h1 {color:deeppink;}
+/* below is a grouped selector */
+p {font-size: 200%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bolder;
+background-color: azure;}
+/* descendant selector only changes links inside paragraph text */
+a { color:darkolivegreen;
+}
+/* class selector can be used to pick one or more times on page */
+.secondpara {
+color: lightseagreen;
+}
+#first para {
+text-decoration: wavy;
+}
+</style> 

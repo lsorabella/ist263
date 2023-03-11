@@ -10,20 +10,44 @@
             nav a {color: #FFFF;
 }
       nav a:hover{background-color: #FFFF;}
+      
+      section {display: flex;
+    flex-direction: row; 
+background-color: #9999;
+border-radius: 25px;}
+      .address {flex: 1; 
+        order: 1;}
+      .linkedin {flex: 1;
+        order: 3;}
+      .map {flex: 1;
+        order: 2;}
+      .form {flex: 1;
+        order: 4;}
+      .clear {clear: none;}
+
     </style>
     <head>
         <meta charset="utf-8">
         <title>Contact</title>
+        <section>
+        <div>
+            <div class="address"></div>
         <p>Lauren Sorabella</p>
         <p>1003 Walnut Ave</p>
         <p>Syracuse, NY 13210</p>
+        <div class="linkedin"></div>
         <h1>My LinkedIn Profile</h1>
         <a href="http://www.linkedin.com/in/lauren-sorabella-b1993224b/"> My LinkedIn Profile</a>
         <a href="malito:lbsorabe@syr.edu">Lauren Sorabella Email</a>
         <img src="../images/logo_sized.png">
         <img src="../images/lab05.png">
-
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11664.550664274671!2d-76.1320463!3d43.0385349!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x92ce28432e1406fd!2sLyman%20Hall!5e0!3m2!1sen!2sus!4v1675354774267!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="clear"></div>
+        <div>
+            <div class="map"></div>
+        
+       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11664.550664274671!2d-76.1320463!3d43.0385349!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x92ce28432e1406fd!2sLyman%20Hall!5e0!3m2!1sen!2sus!4v1675354774267!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       <div class="form"></div>
         <form action="https://formspree.io/f/xeqwagvv" method="POST">
             <label for="fullname">Full name:</label>
             <input type="text" id="fullname" name="fullname">
@@ -46,6 +70,9 @@
             </select> <br> 
            <input type="submit" value="submit"> 
             </form>
+            </div>
+            <div class="clear"></div>
+            </section>
     </head>
 
 </html>
