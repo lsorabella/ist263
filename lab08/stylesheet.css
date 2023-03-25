@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylesheet</title>
+    <link rel="stylesheet" href="./contact.html">
+<link rel="stylesheet" href= "./skills.html">
+<link rel="stylesheet" href= "./index.html">   
+
+    <style>
+        body {background-color: #FF33D1;
+        }
+        text {color: #FFFF
+        }
+        a {color: #33D4FF
+        }
+        h1 {color: #33FF90
+        }
+        nav {background-color: #FF8633;
+            padding: 10px;
+margin-bottom: 30px;
+}
+        nav a {color: #FFFF;
+}
+  nav a:hover{background-color: #FFFF;}
+  .img1 {float: left; margin-right: 10px;}
+  .clear {clear: both;}
+
+    </style>
+</head>
+<body>
+    
+</body>
+</html>

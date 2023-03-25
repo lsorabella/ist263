@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>First CSS Page </title>
+    <link rel="stylsheet" href="unit6styles.css">
     <style>
         /* below is an emelement selector */
         h1 {color:deeppink;}
@@ -13,10 +14,23 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
 background-color: azure;}
+/* descendant selector only changes links inside paragraph text */
+a { color:darkolivegreen;
+}
+/* class selector can be used to pick one or more times on page */
+.secondpara {
+    color: lightseagreen;
+}
+#first para {
+    text-decoration: wavy;
+}
     </style>
 </head>
 <body>
     <h1> First CSS Day</h1>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum sint voluptatem aliquid similique nam ut, non error, perferendis nisi eligendi, illo ex nemo placeat provident voluptatum consequatur nihil. Laboriosam, commodi.</p>
+    <a href="http://www.google.com" class="secondpara"> Google </a>
+    <! -- the class attribute hooks to our class selector in css -->
+    <p class="secondpara">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum sint voluptatem aliquid similique nam ut, non error, perferendis nisi eligendi, illo ex nemo placeat provident voluptatum consequatur nihil. Laboriosam, commodi.</p>
+    <a href="http://www.amazon.com">Amazon</a>
 </body>
 </html>
