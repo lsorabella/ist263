@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html> 
+    <style> h1, h2 {color:cornflowerblue;
+    }
+    nav {background-color: #FF8633;
+                padding: 10px;
+    margin-bottom: 30px;
+}
+            nav a {color: #FFFF;
+}
+      nav a:hover{background-color: #FFFF;}
+      
+      section {
+    flex-direction: row; 
+background-color: #9999;
+border-radius: 25px;}
+    .flex1 {display: flex; }
+      .flex2 {display: flex; 
+    flex-wrap: wrap; }
+      .clear {clear: none;}
+      @media only screen and (max-width: 800px) {
+            nav a {display: block; 
+            padding: 5px}
+            span {display: none; }
+         }
+     
+
+    </style>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <nav><a href="./lab07/">Home</a><span>|</span><a href="./skills.html">Skills</a> <span>|</span> <a href="./contact.html">Contact</a></nav>
+        <section>
+            <div class="flex2">
+                <div class="form"> <form action="https://formspree.io/f/xeqwagvv" method="POST">
+                    <label for="fullname">Full name:</label>
+                   <input type="text" id="fullname" name="fullname">
+                   <br> 
+                    <label for="reasonforcontacting">Reason for Contacting:</label>
+                    <textarea id="orderitems" name="orderitems" rows="4" cols="50">
+                   </textarea> <br>
+                  <input type="radio" id="email" name="email" value="email">
+                   <label for="email">E-mail</label>
+                  <input type="radio" id="call" name="call" value="call">
+                  <label for="call">Call</label> <br>
+                   <input type="checkbox" id="meetup?" value="meetup?">
+                   <label for="meetup?">Do you want to meet up?</label><br>
+                  <label for="location">How would you like to meet</label>
+                  <select id="location" name="location">
+                  <option></option>
+                  <option value="in person">In Person</option>
+                  <option value="Zoom">Zoom</option>
+                  <option value="Other virtual option">Other Virtual Option</option>
+                   </select> <br> 
+                   <input type="submit" value="submit"> 
+             </form>
+                <iframe class="flex2" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11664.550664274671!2d-76.1320463!3d43.0385349!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x92ce28432e1406fd!2sLyman%20Hall!5e0!3m2!1sen!2sus!4v1675354774267!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           
+       </div>
+          
+               </div>
+               <div class="clear"></div>
+        <div class="flex1">
+            <div class="address">  
+                 <p>Lauren Sorabella</p>
+                <p>1003 Walnut Ave</p>
+                <p>Syracuse, NY 13210</p>
+               <div class="linkedin">
+             <h1>My LinkedIn Profile</h1>
+             <a href="http://www.linkedin.com/in/lauren-sorabella-b1993224b/"> My LinkedIn Profile</a>
+             <a href="malito:lbsorabe@syr.edu">Lauren Sorabella Email</a>
+             <img src="../images/logo_sized.png" alt="logo">
+             <img src="../images/lab05.png" alt="aboutme">
+        </div>
+ 
+        </div>
+        <div class="clear"></div>
+      </section>
+    </head>
+
+</html>
