@@ -5,29 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap" rel="stylesheet"> 
+    <link rel="style icon" type="image/x-icon" href="../images/favicon.ico">
     <style>
-        body {background-color: lightblue;}
-        h1 {text-align: center;}
-        nav {background-color: #F4EBD0;
-                padding: 10px;
-    margin-bottom: 30px;
-  }
+        body {background-color: lightblue;
+            font-family: 'STIX Two Text', serif; }
+        h1 {padding: 10px;
+            margin-top: 5%;
+            text-align: center;
+        font-weight: 800;}
+        nav {margin-bottom: 5%;
+            text-align: center;}
   a {text-decoration: none;}
             a {color: navy;
 }
       a:hover{background-color: #FFFF;}
       #location {display:table;
                  margin:auto; }
-    .music, .book, .write {display: flex;
-background-color: #F4EBD0;}
-.music {justify-content: flex-start}
- .book {padding: 30px;
-        border-radius: 25px;
-    justify-content: flex-end; 
-flex-basis: 10%; }
-.write {justify-content: flex-start;}
-      .music, .write {padding: 20px;
-        border-radius: 25px;}
+    strong {font-weight: 400;}
+    .parent {display: flex;
+        flex-direction: column;}
+.music {background-color: #F4EBD0;
+border-radius: 25px; 
+justify-content: flex-end;
+padding: 25px;
+width: 20%; 
+margin-left: 70%;
+flex: 1; }
+.book {background-color: #F4EBD0;
+border-radius: 60px; 
+justify-content: center;
+padding: 40px;
+width: 50%;
+margin-left: 5%;
+flex: 2; }
+.write {background-color: #F4EBD0;
+border-radius: 25px; 
+justify-content: center;
+padding: 25px;
+width: 20%; 
+margin-left: 70%;
+flex: 3;}
         @media only screen and (max-width: 800px) {
             nav a {display: block; 
             padding: 5px}
@@ -36,8 +56,9 @@ flex-basis: 10%; }
     </style>
 </head>
 <body>
-    <nav><a href="./page1.html">All Blog Posts </a>| <a href="./page2.html"> About Me </a> | <a href="./page3.html">Photo Diary </a> </nav>
+
     <h1> ATTEMPTED WISDOM </h1>
+    <nav><a href="./page1.html">All Blog Posts </a>| <a href="./page2.html"> About Me </a> | <a href="./page3.html">Photo Diary </a> </nav>
     <select id="location" name="location">
         <option></option>
         <option value="My Work">My Work</option>
@@ -46,19 +67,21 @@ flex-basis: 10%; }
         <option value="Miscellaneous"> Miscellaneous </option>
     </select>
     <article> 
+        <div class="parent">
     <p class="music"> Blog Post #3 (Category: Music) <br> 
         Songs of each episode in Attempted Wisdom <br> 
         <a href="https://open.spotify.com/playlist/4yp5uiyppuxJPeTpfWpsmq">Song of the Episode</a></p>
         <br>
-<p class="book"> Blog Post #2 (Category: Book Review) <br>
+<p class="book"> <strong> Post #2 (Category: Book Review) </strong> <br>
     8/10 <br> 
-    My book of the month this January was Daisy Jones and the Six, the famous Taylor Jenkins Reid novel that is being turned into a miniseries on Amazon Prime Video this March (so my timing was perfect). The book follows the rise and fall of a popular fictional band in the 70s. I loved this book because it was different from anything I’ve ever read in that it was set up almost like a script to a TV show but they’re all just talking to the interviewer giving their thoughts while reminiscing on their prime years. I thought in the middle it started to drag, but it was an interesting read and contributed to my grunge grandma era that I have been in recently. I can’t wait to watch the series and see if it is an accurate representation of the book. Rating on that coming soon!
+    My book of the month this January was Daisy Jones and the Six, the famous Taylor Jenkins Reid novel that is being turned into a miniseries on Amazon Prime Video this March (so my timing was perfect). <br> The book follows the rise and fall of a popular fictional band in the 70s. I loved this book because it was different from anything I’ve ever read in that it was set up almost like a script to a TV show but they’re all just talking to the interviewer giving their thoughts while reminiscing on their prime years. <br> I thought in the middle it started to drag, but it was an interesting read and contributed to my grunge grandma era that I have been in recently. I can’t wait to watch the series and see if it is an accurate representation of the book. Rating on that coming soon! <br> 
     </p>
     <br> 
     <p class="write"> Blog Post #1 (Category: My Work) <br>
         My First Article in Fetch Collective on the Problematic One-Size-Fits-All Message that is pushed by European brand, Brandy Melville <br>
         <a href="https://www.fetch-collective.com/a-one-size-all-fits-world"> One Size Fits All World</a>
     </p>
+    </div>
     </article>
 </body>
 </html>
