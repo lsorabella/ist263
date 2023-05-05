@@ -10,6 +10,32 @@
     <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap" rel="stylesheet"> 
     <link rel="style icon" type="image/x-icon" href="../images/favicon.ico">
     <style>
+        .skip {
+  background-color: #F4EBD0;
+  padding: 15px;
+  border: 1px solid black; 
+  text-decoration: none;
+  position: absolute;
+  top: 10px;
+ 
+}
+.skip:focus {left: 10px; }
+.skip {
+ display: block;
+ text-decoration:none;
+ text-align: center;
+ padding: 1em 2em;
+ width: 10em;
+ border-radius: 1.5em;
+ color: #fff;
+ background-color: #F4EBD0;
+ transition-property: background-color;
+ transition-duration: 0.3s;
+}
+.skip:hover, .skip:focus {
+ background-color: navy;
+}
+
         body {background-color: lightblue;
             font-family: 'STIX Two Text', serif; }
         h1 {padding: 10px;
@@ -55,6 +81,7 @@ flex: 3;}
             } 
     </style>
 </head>
+<a href="#main" class="skip" tabindex="0">Skip to Content</a> <br> 
 <body>
 
     <h1> ATTEMPTED WISDOM </h1>

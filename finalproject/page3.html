@@ -10,29 +10,67 @@
     <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap" rel="stylesheet">
     <link rel="style icon" type="image/x-icon" href="../images/favicon.ico">
     <style>
+        .skip {
+  background-color: #F4EBD0;
+  padding: 15px;
+  border: 1px solid black; 
+  text-decoration: none;
+  position: absolute;
+  top: 10px;
+ 
+}
+.skip:focus {left: 10px; }
+.skip {
+ display: block;
+ text-decoration:none;
+ text-align: center;
+ padding: 1em 2em;
+ width: 10em;
+ border-radius: 1.5em;
+ color: #fff;
+ background-color: #F4EBD0;
+ transition-property: background-color;
+ transition-duration: 0.3s;
+}
+.skip:hover, .skip:focus {
+ background-color: navy;
+}
          body {background-color: lightblue;
             font-family: 'STIX Two Text', serif; }
-         h1 {text-align: center;
-        font-size: 40px;} 
-        nav {text-align: center;}
+         h1 {padding: 10px;
+            text-align: center;
+        font-weight: 800;}
+        nav {margin-bottom: 5%;
+            text-align: center;}
         a {text-decoration: none;}
             a {color: navy;
 }
 a:hover{background-color: #FFFF;}
-          img {height: 250px;
-        width: 250px; }
+     img {height: 250px;
+        width: 300px; }
+        .me {height: 350px;
+        width: 300px; }
     .first {display: flex;
         justify-content: flex-start;
     flex-direction: row;}
+    .duke, .xo {width: 55%;
+    padding: 25px; }
     .parent-container {
     display: flex; } 
     .second {display: flex;
-        justify-content: flex-start;
-    flex-direction: column;
-margin-left: auto;}
+        border-radius: 25px; 
+justify-content: flex-end;
+padding: 25px;
+width: 20%; 
+margin-left: 53%;
+flex-direction: column;
+}
 p {display: flex;
-        justify-content: flex-start;
-    flex-direction: column; }
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 90px;
+}
           @media only screen and (max-width: 800px) {
             nav a {display: block; 
             padding: 5px}
@@ -40,21 +78,22 @@ p {display: flex;
             } 
     </style>
 </head>
+<a href="#main" class="skip" tabindex="1"> Skip to Content </a>
 <body>
     <br>
     <br>
     <h1> <strong>ATTEMPTED WISDOM </strong> </h1>
     <nav><a href="./page1.html">All Blog Posts </a>| <a href="./page2.html"> About Me </a> | <a href="./page3.html">Photo Diary </a> </nav>
     <div class="first">
-    <img src="../project5/images/duke.jpg" alt="duke" class="duke"> 2.18.2023  ~ Lauren and I before the Duke vs. Syracuse Basketball Game ~ <br>
-    <img src="../project5/images/xotaco.jpg" alt="xo" class="xo"> 2.11.2023 ~ me, Ava, and Natalia at XO Taco for a dinner night out ~ <br>
+    <img src="../project5/images/duke.jpg" alt="meandlaurenatduke" class="duke"> <br> <p class="lauren"> 2.18.2023  ~ Lauren and I before the Duke vs. Syracuse Basketball Game ~  </p> <br>
+    <img src="../project5/images/xotaco.jpg" alt="meavaandnataliagettingdinner" class="xo"> <br> <p class="taco"> 2.11.2023 ~ me, Ava, and Natalia at XO Taco for a dinner night out ~  </p> <br>
    </div>
    <div class="parent-container">
    <div class="second">
-    <img src="../project5/images/sofia.jpg" alt="sofia" class="sofia"> <p> 2.11.2023 ~ my best friend Sofia and I before dinner at XO Taco ~ </p> <br> 
-    <img src="../project5/images/maddie.jpg" alt="maddie" class="maddie"> <p> 1.29.2023 ~ Maddie and I outside of our sorority house on bid day ~ </p> <br> 
-    <img src="../project5/images/group.jpg" alt="bid" class="bid"> <p> 1.29.2023 ~ Aviya, Lauren, Emma, Maddie, and I in the house on bid day right before the new girls came ~ </p> <br> 
-    <img src="../project5/images/meandemma.jpg" alt="emma" class="emma"> <p> 1.20.2023 ~ Emma and I on the first day of recruitment ~ </p> <br>
+    <img src="../project5/images/sofia.jpg" alt="meandsofia" class="sofia"> <p> 2.11.2023 ~ my best friend Sofia and I before dinner at XO Taco ~ </p> <br> 
+    <img src="../project5/images/maddie.jpg" alt="meandmaddieinfrontofphisig" class="maddie"> <p> 1.29.2023 ~ Maddie and I outside of our sorority house on bid day ~ </p> <br> 
+    <img src="../project5/images/group.jpg" alt="biddaygroup" class="bid"> <p> 1.29.2023 ~ Aviya, Lauren, Emma, Maddie, and I in the house on bid day right before the new girls came ~ </p> <br> 
+    <img src="../project5/images/meandemma.jpg" alt="meandemma" class="emma"> <p> 1.20.2023 ~ Emma and I on the first day of recruitment ~ </p> <br>
     <img src="../project5/images/me.jpg" alt="me" class="me"> <p> 1.20.2023 ~ me on the first day of recruitment, ready to meet everyone! ~ </p>
     </div>
 </div>
