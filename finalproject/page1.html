@@ -17,9 +17,10 @@
   text-decoration: none;
   position: absolute;
   top: 10px;
+  position: absolute;
  
 }
-.skip:focus {left: 10px; }
+.skip:focus {left: -999em; }
 .skip {
  display: block;
  text-decoration:none;
@@ -28,12 +29,12 @@
  width: 10em;
  border-radius: 1.5em;
  color: #fff;
- background-color: #F4EBD0;
+ background-color: navy;
  transition-property: background-color;
  transition-duration: 0.3s;
 }
 .skip:hover, .skip:focus {
- background-color: navy;
+ background-color: #F4EBD0;
 }
 
         body {background-color: lightblue;
@@ -81,9 +82,8 @@ flex: 3;}
             } 
     </style>
 </head>
-<a href="#main" class="skip" tabindex="0">Skip to Content</a> <br> 
 <body>
-
+<a href="#main" class="skip" tabindex="-1">Skip to Content</a> <br> 
     <h1> ATTEMPTED WISDOM </h1>
     <nav><a href="./page1.html">All Blog Posts </a>| <a href="./page2.html"> About Me </a> | <a href="./page3.html">Photo Diary </a> </nav>
     <select id="location" name="location">
@@ -92,8 +92,7 @@ flex: 3;}
         <option value="Book Reviews">Book Reviews</option>
         <option value="Music">Music</option>
         <option value="Miscellaneous"> Miscellaneous </option>
-    </select>
-   <h2></h2> <article> 
+    </select> 
         <div class="parent">
     <p class="music"> Blog Post #3 (Category: Music) <br> 
         Songs of each episode in Attempted Wisdom <br> 
